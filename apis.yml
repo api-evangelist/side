@@ -1,8 +1,14 @@
 aid: side
 name: Side
-description: 'Side is a company surfaced as a portfolio company of iconiq-capital, matrix-partners, sapphire-ventures,
-  trinity-ventures and added to the API Evangelist network as a stub for enrichment. Sector: proptech.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Side is a technology-powered residential real estate brokerage platform
+  that partners with top-producing agents, teams, and independent brokers to help
+  them launch and grow their own branded brokerage companies without the time, cost,
+  or risk of operating a traditional brokerage. Side provides back-office operations,
+  compliance, transaction management, marketing, and a proprietary Side App that
+  streamlines and automates real estate transactions. Founded in San Francisco, Side
+  is backed by ICONIQ Capital, Matrix Partners, Sapphire Ventures, and Trinity Ventures.
+  Side runs a private, authenticated internal API (api.side.com/v1) that powers its
+  app but publishes no public developer program, SDKs, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/side/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +19,29 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Proptech
+- Real Estate
+- Brokerage
+- Transaction Management
+- Real Estate Technology
+- Agents
+image: https://www.side.com/wp-content/uploads/2022/12/Homepage-Website-Preview-Image-2.jpg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.sideinc.com/
+  url: https://www.side.com/
+- type: Blog
+  url: https://www.side.com/blog/
+- type: Support
+  url: https://www.side.com/contact-us/
+- type: TermsOfService
+  url: https://www.side.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.side.com/privacy-policy/
+- type: DomainSecurity
+  url: security/side-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
